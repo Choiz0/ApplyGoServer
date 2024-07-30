@@ -8,7 +8,7 @@ const port = process.env.PORT || 5000;
 
 app.use(
   cors({
-    origin: "https://your-frontend-url.com", // 프론트엔드 URL을 허용
+    origin: "https://applygo-35e08.web.app", // 프론트엔드 URL을 허용
   })
 );
 
